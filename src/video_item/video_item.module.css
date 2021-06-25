@@ -1,33 +1,37 @@
 .container {
-    
-    width: 50%;
-    padding: 0.2em;
-    
+  width: 50%;
+  padding: 0.2em;
+  box-sizing: border-box;
+  
 }
 
 .metadata {
-    margin-left: 0.2em;
+  margin-left: 0.2em;
 }
 
 .video:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
+}
+
+.thumbnail {
+  width: 40%;
 }
 
 .title,
 .channel {
-    margin: 0;
+  margin: 0;
 }
 
 .channel {
-    font-size: 0.6rem;
+  font-size: 0.6rem;
 }
 
 .video {
-    border: 1px solid lightgray;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    transition: transform 250ms ease-in;
-    width: 100%;
-    box-sizing: border-box;
+  border: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 250ms ease-in;
+  width: 100%;
+  box-sizing: border-box;
 }
